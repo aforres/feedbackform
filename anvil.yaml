@@ -9,9 +9,9 @@ services:
   server_config: {}
 package_name: Feedbackform
 allow_embedding: false
-name: 'Clone of Tutorial: Feedback form (4)'
+name: Student Feedback Form
 runtime_options: {version: 2, server_version: python3-sandbox, client_version: '3',
   server_spec: null}
-metadata: {}
+metadata: {title: Student Feedback Form, logo_img: 'asset:portcullis_logo.png'}
 startup_form: Form1
 renamed: true
