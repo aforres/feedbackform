@@ -14,4 +14,22 @@ runtime_options: {version: 2, server_version: python3-sandbox, client_version: '
   server_spec: null}
 metadata: {title: Student Feedback Form, logo_img: 'asset:portcullis_logo.png'}
 startup_form: Form1
+db_schema:
+  feedback:
+    title: feedback
+    client: none
+    server: full
+    columns:
+    - name: name
+      admin_ui: {width: 200}
+      type: string
+    - name: email
+      admin_ui: {width: 200}
+      type: string
+    - name: feedback
+      admin_ui: {width: 200}
+      type: string
+    - name: created
+      admin_ui: {width: 200}
+      type: datetime
 renamed: true
