@@ -12,7 +12,7 @@ allow_embedding: false
 name: Student Feedback Form
 runtime_options: {version: 2, server_version: python3-sandbox, client_version: '3',
   server_spec: null}
-metadata: {title: Student Feedback Form, logo_img: 'asset:portcullis_logo.png'}
+metadata: {title: Student Feedback Form, logo_img: 'asset:traypacerlogo.png'}
 startup_form: Form1
 db_schema:
   feedback:
